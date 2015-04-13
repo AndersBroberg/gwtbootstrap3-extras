@@ -9,6 +9,7 @@
     </parent>
 
     <artifactId>gwtbootstrap3-extras</artifactId>
+    <version>1.0-spacetime-extras</version>
     <name>GwtBootstrap3 Extras</name>
     <description>Extra, third-party widgets/components for GwtBootstrap3</description>
     <url>http://gwtbootstrap3.org</url>
@@ -30,7 +31,8 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>gwtbootstrap3</artifactId>
-            <version>${project.version}</version>
+            <!-- <version>${project.version}</version> -->
+        	<version>1.0-codemill-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.google.gwt</groupId>
